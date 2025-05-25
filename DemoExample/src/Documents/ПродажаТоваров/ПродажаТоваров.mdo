@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a5eec86b-4f51-4270-9896-600d6e4558a6">
+  <producedTypes>
+    <objectType typeId="9d53cd3c-0655-4394-bccf-f8a084c0cf91" valueTypeId="de99affa-c99c-43db-9bf3-280994ff2215"/>
+    <refType typeId="57a59c11-11c6-41fa-a025-b33d654493fb" valueTypeId="1c245d4c-68d5-4f39-8889-bf5ff79fb511"/>
+    <selectionType typeId="df807b30-0368-4b43-ab39-310b1aa5bd47" valueTypeId="5b4e7d9e-9c8c-4228-8a19-ce928cdc9aff"/>
+    <listType typeId="2d1480cb-5562-4d39-af08-31896f965768" valueTypeId="a89bdcfc-a704-428f-aa36-93de27e801f8"/>
+    <managerType typeId="4cad2cc9-43d3-4855-9771-b2163dc8c360" valueTypeId="117fa140-7d6d-46e6-8495-d5cb74b8941f"/>
+  </producedTypes>
+  <name>ПродажаТоваров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Продажа товаров</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ПродажаТоваров.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <registerRecords>AccumulationRegister.ТоварыНаСкладе</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+</mdclass:Document>
