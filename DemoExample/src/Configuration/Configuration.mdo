@@ -41,6 +41,7 @@
   <commonModules>CommonModule.Управление</commonModules>
   <catalogs>Catalog.Контрагенты</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.Поставщики</catalogs>
   <documents>Document.ПоступлениеТоваров</documents>
   <documents>Document.ПродажаТоваров</documents>
   <accumulationRegisters>AccumulationRegister.ТоварыНаСкладе</accumulationRegisters>
